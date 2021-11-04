@@ -20,7 +20,7 @@ For *Rapid Prototyping* purposes, code generation is a valid tool. The Firmware 
 #### General rules
 The following general rules have to be taken into account when creating the Simulink model:
 * To match the variable names in the Firmware, the Simulink model has to be named "*feedback_control.slx*", so that input and output variables are structs named respectively *feedback_control_U* and *feedback_control_Y*;
-* The **In1** and **Out1** ports in Simulink has to be carefully named since the arguments of the C++ controller step function are structs whose members take the name from those ports.
+* The **In1** and **Out1** ports in Simulink have to be carefully named since the arguments of the C++ controller step function are structs whose members take the name from those ports.
 #### Interface
 
 ### Firmware with generated code 
